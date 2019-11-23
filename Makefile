@@ -6,7 +6,7 @@
 #    By: cshawnee <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/08/12 19:49:54 by cshawnee          #+#    #+#              #
-#    Updated: 2019/11/15 16:31:41 by cshawnee         ###   ########.fr        #
+#    Updated: 2019/11/22 17:56:26 by madan            ###   ########.fr        #
 #                                                                              #
 #******************************************************************************#
 
@@ -34,3 +34,5 @@ fclean: clean
 	/bin/rm -rf $(NAME)
 
 re: fclean all
+
+.PHONY: clean fclean all re
